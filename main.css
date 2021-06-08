@@ -8,26 +8,204 @@
   border: white solid 3px;
 }
 
+.elipse-rotation {
+  transform: rotate(140deg);
+  margin-right: 20px;
+}
+
+.contain h2 {
+  display: inline-block;
+}
+
+.ts__child {
+  margin-top: 113px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 304px;
+}
+
+.card {
+  color: white;
+  text-align: center;
+}
+.card .btn {
+  display: block;
+  width: 150px;
+  margin: auto;
+  margin-top: 40px;
+  background: transparent;
+  border: 1px white solid;
+}
+
 .description {
   width: 100%;
 }
 
 .description__inner {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.description__inner .action__text p {
+  margin-top: 40px;
+}
+.description__inner .action__image {
+  position: absolute;
+  top: 96px;
+  left: 40px;
+  right: 40px;
+}
+.description__inner .action__text {
+  width: 636px;
+  margin-top: 80px;
+}
+.description__inner .action_contain {
+  position: relative;
+}
+
+.quick-start {
+  width: 100%;
+  margin-top: 200px;
+}
+
+.quick-start__progress {
+  display: flex;
+  max-width: 1300px;
+}
+
+.quick-start__contain {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.quick-start__item {
+  margin-top: 100px;
+}
+
+.quick-start__progress p {
+  margin-top: 40px;
+}
+
+.profession {
+  width: 100%;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.gadges__item {
+  margin-right: 20px;
+}
+
+.gadgets {
+  display: flex;
+  margin-top: 187px;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners {
+  width: 100%;
+  margin-top: 231px;
+}
+
+.partners__images {
+  margin-top: 117px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.partners__images img {
+  display: block;
+}
+
+.partners__images img::after {
+  content: "";
+  border-bottom: 1px solid #c2bdbd;
+  border-right: 1px solid white;
+  padding: 10px;
+}
+
+.study__child {
+  margin: auto;
+  margin-top: 180px;
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.time__right {
   display: flex;
   flex-direction: column;
 }
 
-.cards {
+.time__right {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  margin-right: 180px;
 }
 
-.cards__btn {
-  background: transparent;
-  border: white solid 3px;
+.time {
+  margin-top: 100px;
+  display: flex;
+}
+.time div {
+  margin-top: 100px;
+}
+.time p {
+  word-break: break-all;
+  margin-top: 20px;
 }
 
+.stick {
+  position: relative;
+  width: 6px;
+  bottom: 700px;
+  position: relative;
+}
+.stick .lil__stick {
+  position: absolute;
+  left: 0;
+  top: 50px;
+}
+.stick .lil__stick2 {
+  top: 230px;
+}
+.stick .lil__stick3 {
+  top: 420px;
+}
+.stick .lil__stick2 {
+  top: 230px;
+  left: 0;
+}
+.stick .lil__stick2 {
+  top: 230px;
+}
+.stick .lil__stick2 {
+  top: 230px;
+}
 
+.darkwhite {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.page {
+  margin: auto;
+  max-width: 1600px;
+  width: 100%;
+}
+
+.lorem {
+  position: absolute;
+  width: 100%;
+  color: red;
+  z-index: 20;
+}
 
 body {
   background: #000;
@@ -56,12 +234,17 @@ a {
 
 .contain {
   margin: auto;
-  max-width: 1200px;
+  max-width: 1400px;
   width: 100%;
 }
 
 h1, h2 {
   font-size: 44px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 26px;
   font-weight: 700;
 }
 
@@ -71,8 +254,11 @@ h1, h2 {
   background: url(./img/main-screen__bgc.jpg) center no-repeat;
   background-size: cover;
   width: 100%;
+  height: 100vh;
 }
 .header .nav {
+  position: relative;
+  z-index: 5;
   display: flex;
   justify-content: space-between;
 }
@@ -101,17 +287,21 @@ h1, h2 {
   right: 30px;
   display: flex;
 }
-.header .counter .stats {
+
+.stats {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
   background: #121212;
   width: 100%;
   height: 90px;
 }
-.header .counter .stats .stats__btn-1 {
+.stats .stats__btn-1 {
   background: linear-gradient(#DF5950, #451046);
+}
+
+.elipse-rotation-1 {
+  transform: rotate(180deg);
+  margin-right: 40px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,20 +1,32 @@
 .description {
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .description__inner {
+    margin-top: 200px;
     display: flex;
-    flex-direction: column;
-    // .action__rectangle {
-    //         // position: relative;
-    //         // background: transparent;
-    // }
+    flex-direction: row;
+    justify-content: space-around;
+   
+    .action__text p {
+        margin-top: 40px;
+    }
+    
 
-    // .action__image {
-    //     background: transparent;
-    //     position: absolute;
-    //     top: 29px;
-    //     left: 35px;
-    // }
+    .action__image {
+
+        position: absolute;
+        top: 96px;
+        left: 40px;
+        right: 40px;
+    }
+
+    .action__text {
+        width: 636px;
+        margin-top: 80px;
+    }
+
+    .action_contain {
+        position: relative;
+    }
 }   

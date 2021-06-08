@@ -1,0 +1,24 @@
+.partners {
+    width: 100%;
+    margin-top: 231px;
+}
+
+.partners__images  {
+    margin-top: 117px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+   
+}
+
+.partners__images img {
+    display: block;
+}
+
+.partners__images img::after {
+   content: '';
+    border-bottom: 1px solid rgb(194, 189, 189);
+    border-right: 1px solid white;
+    padding: 10px;
+}
+

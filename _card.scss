@@ -7,3 +7,44 @@
     background: transparent;
     border: white solid 3px;
 }
+
+.elipse-rotation {
+    transform: rotate(140deg); 
+    margin-right: 20px; 
+}
+
+.contain {
+   
+    h2 {
+        display: inline-block;
+    }
+}
+
+
+.ts__child {
+    margin-top: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 304px;
+}
+
+
+// .ts {       /* Забавный баг перевернул аватарки */
+//     img{
+//         transform: rotate(180deg);
+//     }
+// }
+
+.card {
+    color: white;
+    text-align: center;
+    .btn {
+        display: block;
+        width: 150px;
+        margin: auto;
+        margin-top: 40px;
+        background: transparent;
+        border: 1px white solid;
+    }
+}

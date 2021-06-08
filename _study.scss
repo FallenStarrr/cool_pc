@@ -1,0 +1,68 @@
+.study__child {
+    margin: auto;
+    margin-top: 180px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.time__right { display: flex; flex-direction: column; }
+
+
+.time__right { display: flex; flex-direction: column; margin-right: 180px; }
+
+.time {
+    margin-top: 100px;
+    display: flex;
+
+    div {
+        margin-top: 100px;
+    }
+
+
+    p {
+        word-break: break-all;
+        margin-top: 20px;
+    }
+
+}
+
+.stick {
+    position: relative;
+    width: 6px;
+    bottom: 700px;
+    position: relative;
+    
+
+    .lil__stick {
+        position: absolute;
+        left: 0;
+        top: 50px;
+    }
+
+    .lil__stick2 {
+        top: 230px;
+    }
+
+    .lil__stick3 {
+        top: 420px;
+    }
+
+    .lil__stick2 {
+        top: 230px;
+        left: 0;
+    }
+
+    .lil__stick2 {
+        top: 230px;
+    }
+
+    .lil__stick2 {
+        top: 230px;
+    }
+
+}
+   
