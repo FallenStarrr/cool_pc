@@ -1,0 +1,39 @@
+$grad3: #DF5950;
+$grad4: #451046;
+
+input[type=email] {
+    margin-top: 20px;
+   background: rgba(163, 161, 161, .8);
+   width: 353px;
+   height: 44px;
+   border-radius: 50px;
+}
+
+::placeholder {
+    color: white;
+    padding-left: 20px;
+}
+
+.news__child {
+    margin-top: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media {
+    margin-top: 40px;
+}
+
+.social-media__item {
+    margin-left: 15px;
+}
+
+.sub {
+    position: absolute;
+    width: 150px;
+    display: block;
+    right: 0;
+    top: 20px;
+    background-color: linear-gradient(#DF5950, #451046);
+}
