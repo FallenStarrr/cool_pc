@@ -221,6 +221,7 @@ input[type=email] {
 
 .social-media {
   margin-top: 40px;
+  position: relative;
 }
 
 .social-media__item {
@@ -228,12 +229,34 @@ input[type=email] {
 }
 
 .sub {
+  padding: 10px 30px;
+  border-radius: 50px;
   position: absolute;
   width: 150px;
   display: block;
-  right: 0;
+  right: 0px;
   top: 20px;
-  background-color: linear-gradient(#DF5950, #451046);
+  background: linear-gradient(#DF5950, #451046);
+}
+
+.vk {
+  position: absolute;
+  right: 220px;
+  top: 20px;
+}
+
+.fb {
+  top: 20px;
+  position: absolute;
+  left: 100px;
+  padding-left: 5px;
+}
+
+.youtube {
+  top: 20px;
+  position: absolute;
+  left: 170px;
+  padding-right: 25px;
 }
 
 .darkwhite {
