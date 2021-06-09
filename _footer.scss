@@ -54,8 +54,24 @@ input[type=email] {
     padding-left:5px;
 }
 .youtube {
+    display: block;
     top: 20px;
     position: absolute;
-    left: 170px;
-    padding-right: 25px;
+    left: 166px;
+    
 }
+
+.fa-instagram {
+    font-size: 30px;
+    position: relative;
+    right: 40px;
+    bottom: 14px;
+    
+    
+}
+
+.media-1 {
+    position: relative;
+    left: 3px;
+}
+

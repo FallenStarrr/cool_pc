@@ -22,3 +22,9 @@
     padding: 10px;
 }
 
+@media(max-width: 760px) {
+    .partners__images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+

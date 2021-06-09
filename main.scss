@@ -1,3 +1,5 @@
+
+
 @import 'card';
 @import 'description';
 @import 'quick-start';
@@ -12,6 +14,13 @@ $grad3: #DF5950;
 $grad4: #451046;
 $count_bg:
  #121212;
+
+
+
+
+img {
+    max-width: 100%;
+}
 .darkwhite {
     font-weight: 400;
     font-size: 16px;
@@ -21,14 +30,10 @@ $count_bg:
     max-width: 1600px;
     width: 100%;
 }
- .lorem {
-     position: absolute;
-     width: 100%;
-     color: red;
-     z-index: 20;   
- }
+
 
 body {
+    overflow-x: hidden;
     background: #000;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
@@ -94,6 +99,9 @@ h3 {
       flex-direction: column;
       margin-top: 250px;
       margin-left: 312px;
+      width: 400px;
+      height: 400px;
+
      
       .counter__num {
         display: flex;
@@ -142,6 +150,58 @@ h3 {
 
 
 
+@media (max-width: 760px) {
+    h2 {
+        font-size: 25px;
+    }
+
+    .header {
+        
+        background-position: right;
+
+      
+    }
+    .nav {
+        align-items: center;
+        justify-content: center;
+    }
 
 
+    .links {
+        width: 300px;
+        background: rgb(240, 128, 128, 0.6);
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 15px;
+        padding-right: 80px;
+        
+    }
+
+    .links a {
+        display: block;
+       
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 0;
+        height: 50px;
+        width: 130px;
+        padding-top: 10px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .counter {
+       position: relative;
+       bottom: 100px;
+    }
+
+   
+
+   
+}
 

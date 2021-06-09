@@ -5,20 +5,24 @@
 }
 
 .gadges__item {
- margin-right: 20px;
-//  flex: 1;
+  margin-right: 20px;
+   flex: 1;
+   margin-top: 40px;
+}
 
+.gadges__item  img {
+    display: block;
+    margin: auto;
 }
 
 .gadgets {
     display: flex;
     margin-top: 187px;
-    align-items: center;
+    flex-flow: wrap;
     justify-content: center;
     
 }
 
 
-// .gadges__item-1 {
-//     // flex: 70%;
-// }
+
+

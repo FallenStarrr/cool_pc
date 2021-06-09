@@ -30,12 +30,6 @@
 }
 
 
-// .ts {       /* Забавный баг перевернул аватарки */
-//     img{
-//         transform: rotate(180deg);
-//     }
-// }
-
 .card {
     color: white;
     text-align: center;
@@ -46,5 +40,12 @@
         margin-top: 40px;
         background: transparent;
         border: 1px white solid;
+    }
+}
+
+@media (max-width: 760px) { 
+    .ts__child {
+        // flex-flow: column wrap;
+        flex-wrap: wrap;
     }
 }

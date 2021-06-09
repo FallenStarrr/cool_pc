@@ -16,9 +16,18 @@
 
 .quick-start__item {
         margin-top: 100px;
+       
 }
 
 .quick-start__progress p {
    margin-top: 40px;
 }
+
+@media (max-width: 760px) {
+    .quick-start__item {
+            margin-left: 20px;
+    }
+    
+}
+
 
