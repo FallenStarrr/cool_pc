@@ -14,8 +14,7 @@ function timer() {
    const hours = Math.floor(gap % day  / hour)
    const minutes = Math.floor(gap % hour / minute)
    const seconds = Math.floor(gap % minute / second)
-   console.log(gap % minutes)
-  console.log(gap % second)
+  
    document.querySelector('.day').innerText = days
    document.querySelector('.hour').innerText = hours
    document.querySelector('.min').innerText = minutes
