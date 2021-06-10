@@ -108,10 +108,15 @@ h3 {
         justify-content: center;
         align-items: center;
          background: $count_bg;
-         width: 107px;
+         width: 207px;
          height: 112px;
          margin-left: 25px;
          margin-top: 20px;
+         padding: 45px;
+
+         h3 {
+             margin-left: 10px;
+         }
       }
 
       .counter__inner {

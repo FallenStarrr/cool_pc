@@ -252,6 +252,8 @@ input[type=email] {
 .social-media {
   margin-top: 40px;
   position: relative;
+  display: flex;
+  flex-direction: row;
 }
 
 .social-media__item {
@@ -270,14 +272,14 @@ input[type=email] {
 }
 
 .vk {
-  position: absolute;
-  right: 220px;
+  position: relative;
+  left: 10px;
   top: 20px;
 }
 
 .fb {
   top: 20px;
-  position: absolute;
+  position: relative;
   left: 100px;
   padding-left: 5px;
 }
@@ -285,7 +287,7 @@ input[type=email] {
 .youtube {
   display: block;
   top: 20px;
-  position: absolute;
+  position: relative;
   left: 166px;
 }
 
@@ -294,11 +296,6 @@ input[type=email] {
   position: relative;
   right: 40px;
   bottom: 14px;
-}
-
-.media-1 {
-  position: relative;
-  left: 3px;
 }
 
 img {
@@ -388,10 +385,14 @@ h3 {
   justify-content: center;
   align-items: center;
   background: #121212;
-  width: 107px;
+  width: 207px;
   height: 112px;
   margin-left: 25px;
   margin-top: 20px;
+  padding: 45px;
+}
+.header .counter .counter__num h3 {
+  margin-left: 10px;
 }
 .header .counter .counter__inner {
   text-align: center;

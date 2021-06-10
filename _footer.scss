@@ -24,6 +24,8 @@ input[type=email] {
 .social-media {
     margin-top: 40px;
     position: relative;
+    display: flex;
+    flex-direction: row;
 }
 
 .social-media__item {
@@ -42,21 +44,22 @@ input[type=email] {
 }
 
 .vk {
-    position: absolute;
-    right: 220px;
+    position: relative;
+    left: 10px;
     top: 20px;
+    
 }
 
 .fb {
     top: 20px;
-    position: absolute;
+    position: relative;
     left: 100px;
     padding-left:5px;
 }
 .youtube {
     display: block;
     top: 20px;
-    position: absolute;
+    position: relative;
     left: 166px;
     
 }
@@ -70,8 +73,6 @@ input[type=email] {
     
 }
 
-.media-1 {
-    position: relative;
-    left: 3px;
-}
+
+
 
