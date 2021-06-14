@@ -160,10 +160,26 @@ h3 {
     margin-right: 40px;
 }
 
+.progress-bar {
+    width: 440px;
+    height: 6px;
+    border-radius: 15px;
+    background: linear-gradient($grad1, $grad2);
+    position: relative;
+z-index: 4;
+}
+
+.white {
+    width: 714px;
+    background: white;
+}
 
 
+@media (max-width: 760px ){
 
-@media (max-width: 760px) {
+    body {
+        overflow-x: hidden;
+    }
     h2 {
         font-size: 25px;
     }
@@ -224,31 +240,16 @@ h3 {
 
     }
 
+
+
    
  }
 
 
- .page {
-     max-width: 100%;
- }
-
- .contain {
-    max-width: 100%;
-}
-   
 
 
-.progress-bar {
-    width: 440px;
-    height: 6px;
-    border-radius: 15px;
-    background: linear-gradient($grad1, $grad2);
-    position: relative;
-z-index: 4;
-}
 
-.white {
-    width: 714px;
-    background: white;
-}
+
+
+
 

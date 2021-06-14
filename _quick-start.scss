@@ -27,7 +27,19 @@
     .quick-start__item {
             margin-left: 20px;
     }
+
+
+    .quick-start__progress  {
+        flex-direction: column;
+    }
     
 }
 
+
+@media (max-width: 1024px) {
+    .quick-start__progress  {
+        flex-direction: column;
+    }
+    
+}
 

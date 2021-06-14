@@ -40,7 +40,12 @@
 
 @media (max-width: 760px) {
   .ts__child {
-    flex-wrap: wrap;
+    flex-flow: column wrap;
+  }
+}
+@media (max-width: 1024px) {
+  .ts__child {
+    flex-flow: column wrap;
   }
 }
 .description {
@@ -106,6 +111,15 @@
   .quick-start__item {
     margin-left: 20px;
   }
+
+  .quick-start__progress {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1024px) {
+  .quick-start__progress {
+    flex-direction: column;
+  }
 }
 .profession {
   width: 100%;
@@ -160,10 +174,20 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+@media (max-width: 1024px) {
+  .partners__images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.study {
+  width: 100%;
+}
+
 .study__child {
   margin: auto;
   margin-top: 180px;
-  width: 750px;
+  width: 100%;
+  max-width: 750px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -252,6 +276,11 @@
   top: 80px;
 }
 
+@media (min-width: 320px) {
+  .time {
+    width: 50vh;
+  }
+}
 input[type=email] {
   margin-top: 20px;
   background: rgba(163, 161, 161, 0.8);
@@ -458,7 +487,25 @@ h3 {
   margin-right: 40px;
 }
 
+.progress-bar {
+  width: 440px;
+  height: 6px;
+  border-radius: 15px;
+  background: linear-gradient(#C89AFC, #7C6AFA);
+  position: relative;
+  z-index: 4;
+}
+
+.white {
+  width: 714px;
+  background: white;
+}
+
 @media (max-width: 760px) {
+  body {
+    overflow-x: hidden;
+  }
+
   h2 {
     font-size: 25px;
   }
@@ -511,25 +558,4 @@ h3 {
   .counter h1 {
     margin-right: 20px;
   }
-}
-.page {
-  max-width: 100%;
-}
-
-.contain {
-  max-width: 100%;
-}
-
-.progress-bar {
-  width: 440px;
-  height: 6px;
-  border-radius: 15px;
-  background: linear-gradient(#C89AFC, #7C6AFA);
-  position: relative;
-  z-index: 4;
-}
-
-.white {
-  width: 714px;
-  background: white;
 }/*# sourceMappingURL=main.css.map */

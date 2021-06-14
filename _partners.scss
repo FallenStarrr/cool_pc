@@ -28,3 +28,9 @@
     }
 }
 
+@media(max-width: 1024px) {
+    .partners__images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+

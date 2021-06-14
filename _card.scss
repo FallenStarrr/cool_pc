@@ -45,7 +45,13 @@
 
 @media (max-width: 760px) { 
     .ts__child {
-        // flex-flow: column wrap;
-        flex-wrap: wrap;
+        flex-flow: column wrap;
+    }
+}
+
+
+@media (max-width: 1024px) { 
+    .ts__child {
+        flex-flow: column wrap;
     }
 }
