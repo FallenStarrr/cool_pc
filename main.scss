@@ -123,6 +123,7 @@ h3 {
           text-align: center;
           position: relative;
           right: 30px;
+          bottom: 20px;
           display: flex;
         
       }
@@ -205,5 +206,19 @@ h3 {
        bottom: 100px;
     }
    
+}
+
+.progress-bar {
+    width: 440px;
+    height: 6px;
+    border-radius: 15px;
+    background: linear-gradient($grad1, $grad2);
+    position: relative;
+z-index: 4;
+}
+
+.white {
+    width: 714px;
+    background: white;
 }
 

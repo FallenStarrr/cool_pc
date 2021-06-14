@@ -169,20 +169,39 @@
   justify-content: center;
 }
 
-.time__right {
+.time__left {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .time__right {
   display: flex;
   flex-direction: column;
   margin-right: 180px;
+  position: relative;
+}
+
+.time__left div,
+.time__right div {
+  position: relative;
+  width: 200px;
+}
+
+.time__left div p {
+  margin-left: 20px;
+  width: 200px;
+}
+
+.time__left div p {
+  margin-right: 60px;
 }
 
 .time {
+  margin-bottom: 170px;
   margin-top: 100px;
   display: flex;
+  position: relative;
 }
 .time div {
   margin-top: 100px;
@@ -191,32 +210,45 @@
   margin-top: 20px;
 }
 
-.stick {
+.timeline {
   position: relative;
-  width: 6px;
-  bottom: 700px;
-  position: relative;
+  right: 80px;
+  display: block;
 }
-.stick .lil__stick {
+
+.lil__stick {
   position: absolute;
-  left: 0;
-  top: 50px;
+  left: 200px;
+  top: 5px;
+  width: 100px;
 }
-.stick .lil__stick2 {
-  top: 230px;
+
+.lil__stick2 {
+  top: 80px;
+  left: 200px;
 }
-.stick .lil__stick3 {
-  top: 420px;
+
+.lil__stick3 {
+  top: 80px;
 }
-.stick .lil__stick2 {
-  top: 230px;
-  left: 0;
+
+.lil__stick4 {
+  top: 80px;
 }
-.stick .lil__stick2 {
-  top: 230px;
+
+.lil__stick5 {
+  top: 80px;
+  left: -80px;
 }
-.stick .lil__stick2 {
-  top: 230px;
+
+.lil__stick6 {
+  left: -80px;
+  top: 80px;
+}
+
+.lil__stick7 {
+  left: -80px;
+  top: 80px;
 }
 
 input[type=email] {
@@ -402,6 +434,7 @@ h3 {
   text-align: center;
   position: relative;
   right: 30px;
+  bottom: 20px;
   display: flex;
 }
 
@@ -467,4 +500,17 @@ h3 {
     position: relative;
     bottom: 100px;
   }
+}
+.progress-bar {
+  width: 440px;
+  height: 6px;
+  border-radius: 15px;
+  background: linear-gradient(#C89AFC, #7C6AFA);
+  position: relative;
+  z-index: 4;
+}
+
+.white {
+  width: 714px;
+  background: white;
 }/*# sourceMappingURL=main.css.map */
