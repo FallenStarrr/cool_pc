@@ -94,48 +94,55 @@ h3 {
       }
   }
 
-  .counter {
+ 
+}
+
+
+
+.counter {
+    display: flex;
+   flex-direction: column;
+    margin-top: 80px;
+    margin-left: 72px;
+    width: 400px;
+    height: 400px;
+
+   
+
+   
+    .counter__num {
       display: flex;
-      flex-direction: column;
-      margin-top: 250px;
-      margin-left: 312px;
-      width: 400px;
-      height: 400px;
+      justify-content: center;
+      align-items: center;
+       background: $count_bg;
+       width: 207px;
+       height: 112px;
+       margin-left: 25px;
+       margin-top: 20px;
+       padding: 45px;
 
-     
-      .counter__num {
+       h3 {
+           margin-left: 10px;
+       }
+    }
+
+    .counter__inner {
+        text-align: center;
+        position: relative;
+        right: 30px;
+        bottom: 20px;
         display: flex;
-        justify-content: center;
-        align-items: center;
-         background: $count_bg;
-         width: 207px;
-         height: 112px;
-         margin-left: 25px;
-         margin-top: 20px;
-         padding: 45px;
-
-         h3 {
-             margin-left: 10px;
-         }
-      }
-
-      .counter__inner {
-          text-align: center;
-          position: relative;
-          right: 30px;
-          bottom: 20px;
-          display: flex;
         
-      }
+      
+    }
 
-     
-  }
+   
 }
 
 
 .stats {
     display: flex;
-    flex-direction: row;
+    flex-flow:  row wrap;
     justify-content: space-evenly;
     align-items: center;
     background: $count_bg;
@@ -162,10 +169,8 @@ h3 {
     }
 
     .header {
-        
+        height: 1200px;
         background-position: right;
-
-      
     }
     .nav {
         align-items: center;
@@ -202,11 +207,36 @@ h3 {
     }
 
     .counter {
+        top: 20px;
        position: relative;
-       bottom: 100px;
+       bottom: 100px;   
+       flex-direction: column;
+      
+       .counter__inner {
+           flex-direction: column;
+       }
+      
+       
+       
+       h1 {
+           margin-right: 20px;  
+       }
+
     }
+
    
+ }
+
+
+ .page {
+     max-width: 100%;
+ }
+
+ .contain {
+    max-width: 100%;
 }
+   
+
 
 .progress-bar {
     width: 440px;
