@@ -117,6 +117,7 @@
   margin-right: 20px;
   flex: 1;
   margin-top: 40px;
+  position: relative;
 }
 
 .gadges__item img {
