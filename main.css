@@ -256,8 +256,13 @@ input[type=email] {
   flex-direction: row;
 }
 
+.item {
+  position: relative;
+}
+
 .social-media__item {
-  margin-left: 15px;
+  margin: auto;
+  margin-left: 10px;
 }
 
 .sub {
@@ -272,30 +277,29 @@ input[type=email] {
 }
 
 .vk {
-  position: relative;
-  left: 10px;
+  position: absolute;
+  left: 22px;
   top: 20px;
 }
 
 .fb {
   top: 20px;
-  position: relative;
-  left: 100px;
-  padding-left: 5px;
+  position: absolute;
+  left: 30px;
 }
 
 .youtube {
   display: block;
   top: 20px;
-  position: relative;
-  left: 166px;
+  position: absolute;
+  left: 25px;
 }
 
 .fa-instagram {
   font-size: 30px;
-  position: relative;
-  right: 40px;
-  bottom: 14px;
+  position: absolute;
+  left: 22px;
+  top: 10px;
 }
 
 img {
