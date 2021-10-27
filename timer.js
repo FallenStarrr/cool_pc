@@ -15,9 +15,11 @@ function timer() {
    const minutes = Math.floor(gap % hour / minute)
    const seconds = Math.floor(gap % minute / second)
    
-   if ((days && hours) < 0 ) {
-        days *= 100
-        hours  *= 100
+   if ((days && hours && minutes && seconds) < 0 ) {
+        days *= 1000
+        hours  *= 1000
+       minutes *= 1000
+       seconds *= 1000
    }
 
   
